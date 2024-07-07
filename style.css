@@ -1,0 +1,259 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family:"Raleway:ital";
+}
+.clickme
+{
+  font-size: 30px;
+  padding-left: 100px;
+  color: #000000;
+  opacity: 0.75;
+}
+.fa-home
+{
+  color: #000000;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  position: fixed;
+  transition: 0.5s;
+}
+.fa-home:hover
+{
+  color: #ffffff;
+  background-color: #000000;
+  transition: 0.5s;
+}
+#banner
+{
+  background: linear-gradient(rgba( 0,0,0,0.1) ,#1eb300), url("images/touch\ grass.jpg");
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  background-color: green;
+}
+.banner-text
+{
+  text-align: center;
+  color: white;
+  padding-top: 100;
+}
+.banner-text h3
+{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 15px 10px #00bd00;
+  display: inline-block; 
+  padding: 5px; 
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.banner-text h3:hover
+{
+  box-shadow: 0 0 20px 10px #52ff52;;
+  transition: 0.5s;
+}
+.banner-text h1
+{
+  font-size: 80px;
+}
+.banner-text p
+{
+  font-size: 30px;
+}
+.banner-button
+{
+  text-align: center;
+  margin: 20px 20px;
+}
+.banner-button a
+{
+  width: px;
+  display: inline-block;
+  text-decoration:none ;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  font-size: 35px;
+  margin: 20px;
+  position: relative;
+  z-index:1;
+}
+.banner-button a span
+{
+  width: 0%;
+  height:100%;
+  top: 0px;
+  left:0px;
+  background-color: white;
+  position: absolute;
+  transition:0.5s;
+  z-index:-1;
+}
+.banner-button a:hover span
+{
+  width:100%;
+}
+.banner-button a:hover
+{
+  color: #009900;
+}
+.screen2
+{
+  background-color: #1eb300;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+}
+.screen2 h5
+{
+  margin-top: 50px;
+}
+.screen2 p
+{
+  font-size: 30px;
+  margin-top: 75px;
+}
+.title-text
+{
+  text-align: center;
+  padding-bottom: 70px;
+  margin-top: 25px;
+}
+.title-text p
+{
+  font-size: 20px;
+  color: black;
+}
+.title-text h1
+{
+  font-size: 30px;
+  color: green;
+}
+.feature-box
+{
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin-bottom: -75px;
+  margin: auto;
+}
+.feature
+{
+  flex-basis: 50%;
+}
+.feature-image
+{
+  flex-basis: 50%;
+  margin: auto;
+}
+.feature-image img
+{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 3px #b1dbfb;
+  transition: 0.5s;
+}
+.feature-image img:hover
+{
+  transform: translateY(-12px);
+  transition: 0.5s;
+}
+.feature span
+{
+  font-size: 30px;
+  color: green;
+}
+.sepback
+{
+  margin-top: 25px;
+}
+.sep-culture h1
+{
+  margin-top: 25px;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+.sep-culture p
+{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.testimonial-row
+{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.testimonial-col
+{
+  flex-basis: 30%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #99ff99;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.testimonial-col:hover
+{
+  transform: translateY(-12px);
+  box-shadow: 0 12px 22px 5px #00ff00;
+  transition: 0.5s;
+}
+.user
+{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.user-info
+{
+  text-align: center;
+}
+#testimonial
+{
+  width:100%;
+  padding: 70px 0;
+}
+.thanks 
+{
+  width: 230px;
+  align-items: center;
+  box-shadow: 0 10px 20px 3px #1eb300;	
+  margin: 25px 25px 25px 450px;
+  transition:0.5s;
+}
+.thanks:hover
+{
+  transform: translateY(-12px);
+  transition: 0.5s;
+}
+.thanks h6
+{
+  color: #1eb300;
+  font-size: 15px;
+}
+.thanks p
+{
+  font-size: 20px;
+}
